@@ -4,9 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <!-- Required meta tags -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/index.css">
     <title>Significa</title>
 </head>
 
@@ -16,61 +18,69 @@
       does not mis-format this specific file
     -->
     <!-- prettier-ignore -->
+
+    <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white container-sm fixed-top">
-        <a class="navbar-brand" href="#">Significa</a>
+        <img src="images/logo.svg" class="navbar-brand">
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav ">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Showcase</a>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">Showcase</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Services</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Careers</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Labs</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <!--FIRST JUMBO-->
 
-    <div class="jumbotron jumbotron-fluid container-sm bg-white">
-        <div class="container">
-            <h1 class="display-4">Your go-to digital agency</h1>
-        </div>
-        <div class="container">
-            <p class="lead">Significa is a digital design-led agency mainly focused on Product Development.
-            </p>
+    <div class="jumbotron jumbotron-fluid container-md bg-white">
+        <div class="firstJumbo ">
+            <div class="container">
+                <h1 class="display-4">Your go-to digital agency</h1>
+            </div>
+            <div class="container firstJumbo">
+                <h4>Significa is a digital design-led agency mainly focused on Product Development.
+                </h4>
+            </div>
         </div>
     </div>
-    <div class="container-sm">
+
+    <!--FIRST IMAGE CARDS-->
+
+    <div class="container-md">
         <div class="row">
-            <div class="card col" style="width: 18rem;">
-                <img src="images/2.png" class="card-img-top" alt="...">
+            <div class="card col firstcards" style="width: 18rem;">
+                <img src="images/2.png" class="card-img-top" alt="App Images">
                 <div class="card-body">
                     <p class="card-text font-weight-bold">Oopsie for users — Your favourite food, one click away! </p>
                     <p class="card-text">
                         Business Analysis, Product Management, Consultancy & 5 others</p>
                 </div>
             </div>
-            <div class="card col" style="width: 18rem;">
-                <img src="images/1.png" class="card-img-top" alt="...">
+            <div class="card col firstcards" style="width: 18rem;">
+                <img src="images/1.png" class="card-img-top" alt="Opennode Image">
                 <div class="card-body">
                     <p class="card-text font-weight-bold">Opennode — Bitcoin, for everyday.</p>
                     <p class="card-text"></p>UI/UX, Front End, Front End</p>
                 </div>
             </div>
-            <div class="card col" style="width: 18rem;">
-                <img src="images/3.png" class="card-img-top" alt="...">
+            <div class="card col firstcards" style="width: 18rem;">
+                <img src="images/3.png" class="card-img-top" alt="AKASHA image">
                 <div class="card-body">
                     <p class="card-text font-weight-bold">AKASHA — Open systems to expand our collective mind.</p>
                     <p class="card-text">UI/UX, Front End, Illustration</p>
@@ -78,7 +88,11 @@
             </div>
         </div>
     </div>
-    <div class="container-sm">
+
+
+    <!--FIRST TEXTBOX-->
+
+    <div class="container-md textcontent text-dark paddingtop">
         <div class="row">
             <div class="col">
                 <h2>We build digital products</h2>
@@ -87,102 +101,154 @@
                 <p>Having a design-led approach to what we do defines who we are. We take on products from inception to launch, from business model to people's pocket, from wireframe to continuous deployment.</p>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <div>
+        <div class="d-flex justify-content-center unorderedlistcustom">
+            <div class="littlecontainer">
                 <p>Strategy</p>
-                <ul class="">
-                    <li>UX research</li>
-                    <li>Business strategy</li>
-                    <li>Brand strategy</li>
-                    <li>Product strategy</li>
-                    <li>Product management</li>
+                <ul class="nostyle">
+                    <li>- UX research</li>
+                    <li>- Business strategy</li>
+                    <li>- Brand strategy</li>
+                    <li>- Product strategy</li>
+                    <li>- Product management</li>
                 </ul>
             </div>
-            <div>
+            <div class="littlecontainer">
                 <p>Product design</p>
-                <ul class="">
-                    <li>User experience</li>
-                    <li>User interface</li>
-                    <li>Brand development</li>
-                    <li>Illustration</li>
-                    <li>Motion & Video</li>
+                <ul class="nostyle">
+                    <li>- User experience</li>
+                    <li>- User interface</li>
+                    <li>- Brand development</li>
+                    <li>- Illustration</li>
+                    <li>- Motion & Video</li>
                 </ul>
             </div>
-            <div>
+            <div class="littlecontainer">
                 <p>Development</p>
-                <ul class="">
+                <ul class="nostyle">
 
-                    <li>Front-end engineering</li>
-                    <li>Web-app development</li>
-                    <li>Native app development</li>
-                    <li>Development operations</li>
+                    <li>- Front-end engineering</li>
+                    <li>- Web-app development</li>
+                    <li>- Native app development</li>
+                    <li>- Development operations</li>
                 </ul>
             </div>
         </div>
-        <div class=" text-center">
+        <div class="text-center servicepadding">
             <a href="#">View services -></a>
         </div>
     </div>
-    <div class="jumbotron jumbotron-fluid bg-dark text-white">
-        <div class="row">
-            <div class=" container col-3 ">
-                <h1 class="display-6 ">What's new on Significa Labs</h1>
-            </div>
-            <div class="container col-9 ">
-                <div>
-                    <ul class=" ">
-                        <li>Automating releases for UI Kits — How to automate release logs and builds for your style guides
-                            <br>Tutorial on Medium</li>
-                        <hr>
-                        <li> An iceberg sank the Titanic — But what’s that got to do with text hierarchy?
-                            <br> Article on Medium</li>
-                        <hr>
-                        <li>On creating synergies — Sharing without compromising our identity
-                            <br>Article on Medium</li>
-                        <hr>
-                    </ul>
+
+    <!--SECOND JUMBO-->
+
+    <section class="secondJumbo ">
+        <div>
+            <div class="row">
+                <div class=" container col-4 ">
+                    <h1>What's new on Significa Labs</h1>
+                </div>
+                <!--Everytime I try to change da hr color the code break-->
+                <div class="container col-6 ">
                     <div>
-                        <a href="# "> Enter the Lab</a>
+                        <ul class="textcontent">
+                            <li>Automating releases for UI Kits — How to automate release logs and builds for your style guides
+                                <br>Tutorial on Medium</li>
+                            <hr>
+                            <li> An iceberg sank the Titanic — But what’s that got to do with text hierarchy?
+                                <br> Article on Medium</li>
+                            <hr>
+                            <li>On creating synergies — Sharing without compromising our identity
+                                <br>Article on Medium</li>
+                            <hr>
+                        </ul>
+                        <div>
+                            <a href="#" class="text-muted"> Enter the Lab</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-sm">
+    </section>
+
+
+    <!--SECOND TEXTBOX-->
+
+    <div class="container-md text-dark paddingtop">
         <div class="row">
             <div class="col">
                 <h2>Drop by, we're hiring.</h2>
             </div>
             <div class="col">
-                <p>Having a design-led approach to what we do defines who we are. We take on products from inception to launch, from business model to people's pocket, from wireframe to continuous deployment.</p>
+                <p class="textcontent">
+                    We are an open-minded, open-hearted team that loves the thrill of creating exciting new projects. Drop us a line if you’re passionate and talented to do everything you set your mind to.</p>
+                <br>
+                <div class=" text-left">
+                    <a href="#">View careers -></a>
+                </div>
             </div>
         </div>
-        <div class=" text-center">
-            <a href="#">View services -></a>
+    </div>
+
+
+    <!--SECOND CARDS IMAGES-->
+
+    <div class="container-md ">
+        <div class="row">
+            <div class="card col secondcards" style="width: 18rem;">
+                <img src="images/4.png" class="card-img-top" alt="Computer image">
+
+            </div>
+            <div class="card col secondcards" style="width: 18rem;">
+                <img src="images/5.png" class="card-img-top" alt="Work Evironment">
+
+            </div>
+            <div class="card col secondcards" style="width: 18rem;">
+                <img src="images/6.png" class="card-img-top" alt="Workers">
+
+            </div>
         </div>
     </div>
-    <!--
-    
-   
-    
-    We are an open-minded, open-hearted team that loves the thrill of creating exciting new projects. Drop us a line if you’re passionate and talented to do everything you set your mind to.
-    View careers
-    Legal © 2019
-    Say
-    hello@significa.co
-    (+351) 226 001 751
-    Links
-    Home
-    Showcase
-    Services
-    About
-    Careers
-    Labs
-    Contact
-    Network
-    Coletiv
-    Adamant
-    Follow us-->
+
+
+    <!--SECOND FOOTER-->
+
+    <footer class="container-md text-dark">
+        <div class="row">
+            <div class="col-12 col-md">
+
+                <p>Legal © 2019</p>
+            </div>
+            <div class="col-6 col-md">
+                <p>Say</p>
+                <span>hello@significa.co
+                    (+351) 226 001 751</span>
+            </div>
+            <div class="col-6 col-md">
+                <p>Links</p>
+                <br>
+                <a href="#" class="text-muted">Home</a><br>
+                <a href="#" class="text-dark">Showcase</a><br>
+
+                <a href="#" class="text-dark">Services</a><br>
+
+                <a href="#" class="text-dark">About</a><br>
+
+                <a href="#" class="text-dark">Careers</a><br>
+
+                <a href="#" class="text-dark">Labs</a><br>
+
+                <a href="#" class="text-dark">Contact</a><br>
+
+            </div>
+            <div class="col-6 col-md">
+                <p>Network</p>
+                <a href="#" class="text-dark">Coletiv</a><br>
+                <a href="#" class="text-dark">Adamant</a>
+            </div>
+            <div class="col-6 col-md">
+                <p>Follow us</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

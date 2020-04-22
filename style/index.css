@@ -1,1 +1,77 @@
 /* Your own custom styles should be here */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    padding-top: 2em;
+}
+
+.firstJumbo {
+    margin-top: 10em;
+    max-width: 36rem
+}
+
+.firstcards {
+    padding-top: 5em;
+    border: 0px;
+}
+
+.card-body {
+    transition: opacity 0.25s ease-in-out;
+}
+
+.card-img-top {
+    transition: transform 0.25s ease-in-out;
+}
+
+.card:hover .card-body {
+    opacity: 0.6;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.littlecontainer {
+    margin: 0 2em;
+}
+
+.nostyle {
+    list-style-type: none;
+}
+
+.unorderedlistcustom {
+    margin-top: 3em;
+}
+
+.servicepadding {
+    margin-top: 3em;
+}
+
+.secondJumbo {
+    padding: 15em 0em;
+    background-color: rgb(17, 19, 20);
+    margin: 10em 0px;
+    color: rgb(237, 240, 242);
+}
+
+.paddingtop {
+    padding-top: 10em;
+}
+
+.textcontent {
+    font-size: 1.2em;
+}
+
+.secondcards {
+    padding-top: 10em;
+    border: 0px;
+}
+
+footer {
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
